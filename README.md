@@ -2,7 +2,7 @@
 
 Calculadora web feita em **HTML, CSS e JavaScript puro**, com visual inspirado
 
-Projeto A3 da UC **Matemática Computacional** · Una Contagem.
+Projeto A3 da UC **Matemática Computacional** · Una Contagem..
 
 ---
 
