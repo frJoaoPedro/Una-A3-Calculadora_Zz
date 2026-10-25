@@ -10,7 +10,7 @@ Projeto A3 da UC **Matemática Computacional** · Una Contagem..
 
 | Nome |
 |------|
-| Carlos Antonio |
+| Carlos Antonio E.R.N |
 | Lucas Eduardo Correia |
 | João Pedro Franco |
 
