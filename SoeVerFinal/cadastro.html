@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOE System - Dados do usuário</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body data-p="cadastro">
+<div class="pagina">
+<header class="barra-topo"><a class="voltar" href="index.html" >Voltar</a><span class="mini-logo">SOE</span></header><h1 class="faixa-titulo">Dados do usuário</h1>
+<main class="conteudo">
+<form id="form-cadastro" class="form">
+<p class="aviso-erro" id="aviso" hidden></p>
+<input type="text" id="c-nome" placeholder="NOME" required><input type="email" id="c-email" placeholder="E-MAIL" required><input type="text" id="c-curso" placeholder="CURSO"><input type="text" id="c-inst" placeholder="INSTITUIÇÃO">
+<input type="password" id="c-senha" placeholder="SENHA (MÍN. 4)" required><input type="password" id="c-senha2" placeholder="REPITA A SENHA" required>
+<button type="submit" class="botao pequeno">Salvar</button>
+</form>
+</main>
+</div>
+</body>
+</html>

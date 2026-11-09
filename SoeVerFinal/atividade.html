@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOE System - Nova atividade</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body data-p="atividade">
+<div class="pagina">
+<header class="barra-topo"><a class="voltar" href="menu.html" >Voltar</a><span class="mini-logo">SOE</span></header><h1 class="faixa-titulo">Nova atividade</h1>
+<main class="conteudo">
+<form id="form-atividade" class="form">
+<label for="a-tipo">Tipo</label><select id="a-tipo"><option>Tarefa</option><option>Trabalho</option><option>Prova</option></select>
+<label for="a-titulo">Título</label><input type="text" id="a-titulo" placeholder="Digite o título" required>
+<label for="a-disc">Disciplina</label><select id="a-disc"></select>
+<label for="a-prazo">Prazo</label><input type="date" id="a-prazo" required>
+<button type="submit" class="botao pequeno">Salvar</button>
+</form>
+</main>
+</div>
+</body>
+</html>

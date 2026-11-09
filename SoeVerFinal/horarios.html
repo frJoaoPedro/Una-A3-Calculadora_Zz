@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOE System - Horários de estudo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body data-p="horarios">
+<div class="pagina">
+<header class="barra-topo"><a class="voltar" href="menu.html" >Voltar</a><span class="mini-logo">SOE</span></header><h1 class="faixa-titulo">Horários de estudo</h1>
+<main class="conteudo">
+<table class="grade" id="grade"></table>
+<p class="legenda"><span class="aula">Aula</span><span class="estudo">Estudo</span><span class="prova">Prova</span></p>
+<h2 class="separa">Novo bloco</h2>
+<form id="form-bloco" class="form">
+<label for="h-dia">Dia</label><select id="h-dia"><option value="0">Segunda</option><option value="1">Terça</option><option value="2">Quarta</option><option value="3">Quinta</option><option value="4">Sexta</option></select>
+<label for="h-turno">Turno</label><select id="h-turno"><option value="0">Manhã</option><option value="1">Tarde</option><option value="2">Noite</option></select>
+<label for="h-tipo">Tipo</label><select id="h-tipo"><option value="aula">Aula</option><option value="estudo">Estudo</option><option value="prova">Prova</option></select>
+<label for="h-disc">Disciplina</label><select id="h-disc"></select>
+<button type="submit" class="botao pequeno">+ Bloco</button>
+</form>
+<p class="dica">Toque num bloco da grade pra remover.</p>
+</main>
+</div>
+</body>
+</html>
